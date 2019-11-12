@@ -24,9 +24,9 @@ function respondBase64 (req, res) {
   res.end(JSON.stringify({ b64: Buffer.from(phrase).toString('base64') }))
 }
 
-function printStatus (req, res) {
-  res.end(JSON.stringify({ msg: 'Status Printed' }))
-
+function printStatus1 (req, res) {
+  res.end(JSON.stringify({msg: 'Status 1 Printed'}))
+}
 
 server.listen(PORT)
 console.log(`Server listening on port ${PORT}`)
