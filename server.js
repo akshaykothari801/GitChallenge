@@ -25,7 +25,7 @@ function respondBase64 (req, res) {
 }
 
 function printStatus (req, res) {
-  res.end(JSON.stringify({ msg: 'Status' }))
+  res.end(JSON.stringify({ msg: 'Status Printed' }))
 
 
 server.listen(PORT)
